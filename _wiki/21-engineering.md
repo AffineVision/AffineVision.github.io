@@ -5,6 +5,10 @@ last_modified_at: 2020-08-11
 toc: true
 ---
 
+## C++
+
+- http://files.cppblog.com/Solstice/dtor_meets_mt.pdf
+
 ## Linux  
 - [Fix The Google GPG Error on Ubuntu](https://www.omgubuntu.co.uk/2017/08/fix-google-gpg-key-linux-repository-error)
 - [CudaDockerFile](https://gitlab.com/nvidia/container-images/cuda/-/tree/master/dist/ubuntu18.04/10.1)
@@ -37,3 +41,4 @@ toc: true
   - [DistributedDataParallel loss compute and backpropogation?](https://discuss.pytorch.org/t/distributeddataparallel-loss-compute-and-backpropogation/47205)
 - **BN 问题**  
   - [How does Dataparallel handels batch norm?](https://discuss.pytorch.org/t/how-does-dataparallel-handels-batch-norm/14040/2)
+
