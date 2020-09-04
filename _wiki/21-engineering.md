@@ -7,7 +7,7 @@ toc: true
 
 ## C++
 
-- http://files.cppblog.com/Solstice/dtor_meets_mt.pdf
+- [当析构函数遇到多线程](http://files.cppblog.com/Solstice/dtor_meets_mt.pdf)
 
 ## Linux  
 - [Fix The Google GPG Error on Ubuntu](https://www.omgubuntu.co.uk/2017/08/fix-google-gpg-key-linux-repository-error)
