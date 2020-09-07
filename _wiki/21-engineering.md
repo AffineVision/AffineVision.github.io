@@ -5,6 +5,14 @@ last_modified_at: 2020-08-11
 toc: true
 ---
 
+## 工程 
+
+### 代码腐化问题  
+- [程序的腐化原因及建议](https://cloud.tencent.com/developer/article/1159878)
+- [聊聊程序腐化那些事](https://kknews.cc/tech/y62kjjk.html)
+
+
+原文網址：https://kknews.cc/tech/y62kjjk.html]()
 ## C++
 
 - [当析构函数遇到多线程](http://files.cppblog.com/Solstice/dtor_meets_mt.pdf)
