@@ -30,6 +30,8 @@ public:
     ptr_ = newptr;
     ptr_[size_++] = newvalue;
   }
+  
+  ~NaiveVector() { delete [] ptr_; }
 }
 ```
 
