@@ -15,3 +15,4 @@ toc: true
 ## Threadings
 
 - [C++ Core Guidelines: Be Aware of the Traps of Condition Variables](https://www.modernescpp.com/index.php/c-core-guidelines-be-aware-of-the-traps-of-condition-variables)
+- [Memory model synchronization modes](http://gcc.gnu.org/wiki/Atomic/GCCMM/AtomicSync)
