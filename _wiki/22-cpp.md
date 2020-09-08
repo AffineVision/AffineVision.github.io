@@ -58,6 +58,15 @@ public:
 
 ```
 
+### The Rule of Three  
+
+If your class directly manages some kind of resource (such as a new'ed poniter), 
+then you almost certainly need to hand-write three special member functions:  
+  - A **destructor** to free the resource
+  - A **copy constructor** to copy the resource
+  - A **copy assignment operator** to free the left-hand resource and copy the right-hand one  
+Use the copy-and-swap idiom to implement assignment
+
 ## Smart Pointers
 
 - [CppCon 2019: Arthur O'Dwyer “Back to Basics: Smart Pointers”](https://www.youtube.com/watch?v=xGDLkt-jBJ4&list=PL5qoVlA-tv09ykIIPHP9N6vgJaFPnYWCa&index=3&ab_channel=CppCon)
