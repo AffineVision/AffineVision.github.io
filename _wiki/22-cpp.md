@@ -11,3 +11,7 @@ toc: true
 
 ## Templats and Meta programmings
 - [Substitution failure is not an error(**SFINAE**)](https://en.wikipedia.org/wiki/Substitution_failure_is_not_an_error)
+
+## Threadings
+
+- [C++ Core Guidelines: Be Aware of the Traps of Condition Variables](https://www.modernescpp.com/index.php/c-core-guidelines-be-aware-of-the-traps-of-condition-variables)
