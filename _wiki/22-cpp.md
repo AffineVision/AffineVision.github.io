@@ -71,6 +71,8 @@ then you almost certainly need to hand-write three special member functions:
 
 Use the copy-and-swap idiom to implement assignment
 
+- [Every you wanted to know about move semantics](https://www.youtube.com/watch?v=vLinb2fgkHk&ab_channel=InsideBloomberg), [PPT](https://www.slideshare.net/ripplelabs/howard-hinnant-accu2014)
+
 ## Smart Pointers
 
 - [CppCon 2019: Arthur O'Dwyer “Back to Basics: Smart Pointers”](https://www.youtube.com/watch?v=xGDLkt-jBJ4&list=PL5qoVlA-tv09ykIIPHP9N6vgJaFPnYWCa&index=3&ab_channel=CppCon)
