@@ -23,6 +23,7 @@ class NaiveVector{
   size_t size_;
 public:
   NaiveVector(): ptr_(nullptr), size_t(0){}
+  
   void push_back(int new_value) {
     int *newptr = new int [size_ + 1];
     std::copy(ptr_, ptr_ + size_, newptr);
@@ -33,6 +34,18 @@ public:
   
   ~NaiveVector() { delete [] ptr_; }
 }
+
+// buggy below
+
+{
+  NaiveVector v;
+  v.push_back(1);
+  {
+    NaiveVector w = v;
+  }
+  std::cout << v[0] << "\n";
+}
+
 ```
 
 ## Smart Pointers
