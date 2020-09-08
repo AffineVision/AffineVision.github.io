@@ -4,6 +4,18 @@ permalink: /wiki/engineering/cpp
 toc: true
 ---
 
+## RAII and the Rule of Zero
+
+### Classes that manager resources  
+- Allocated memory (malloc/free, new/delete, new[]/delete[])
+- POSIX file handles (open/close)
+- C FILE handles(fopen/fclose)
+- Mutex locks (pthread_mutex_lock/pthread_mutex_unlock)
+- C++ threads (spawn/join)
+- Ojective-C resource-counted objects(retrain/release)
+
+> There is some explicit action that needs to be taken by the program in order to **free** the resource
+
 ## Smart Pointers
 
 - [CppCon 2019: Arthur O'Dwyer “Back to Basics: Smart Pointers”](https://www.youtube.com/watch?v=xGDLkt-jBJ4&list=PL5qoVlA-tv09ykIIPHP9N6vgJaFPnYWCa&index=3&ab_channel=CppCon)
