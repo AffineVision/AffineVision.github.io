@@ -16,6 +16,23 @@ toc: true
 
 > There is some explicit action that needs to be taken by the program in order to **free** the resource
 
+### A naive implementation of vector  
+```c++
+class NaiveVector{
+  int *ptr_;
+  size_t size_;
+public:
+  NaiveVector(): ptr_(nullptr), size_t(0){}
+  void push_back(int new_value) {
+    int *newptr = new int [size_ + 1];
+    std::copy(ptr_, ptr_ + size_, newptr);
+    delete [] ptr_;
+    ptr_ = newptr;
+    ptr_[size_++] = newvalue;
+  }
+}
+```
+
 ## Smart Pointers
 
 - [CppCon 2019: Arthur O'Dwyer “Back to Basics: Smart Pointers”](https://www.youtube.com/watch?v=xGDLkt-jBJ4&list=PL5qoVlA-tv09ykIIPHP9N6vgJaFPnYWCa&index=3&ab_channel=CppCon)
