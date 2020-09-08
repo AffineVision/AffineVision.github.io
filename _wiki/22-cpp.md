@@ -45,6 +45,9 @@ public:
                                       
 };
 
+```
+
+```c++
 // buggy below
 
 {
@@ -65,6 +68,7 @@ then you almost certainly need to hand-write three special member functions:
   - A **destructor** to free the resource
   - A **copy constructor** to copy the resource
   - A **copy assignment operator** to free the left-hand resource and copy the right-hand one  
+
 Use the copy-and-swap idiom to implement assignment
 
 ## Smart Pointers
