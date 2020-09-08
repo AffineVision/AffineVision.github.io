@@ -33,7 +33,7 @@ public:
   }
   
   ~NaiveVector() { delete [] ptr_; }
-}
+};
 
 // buggy below
 
