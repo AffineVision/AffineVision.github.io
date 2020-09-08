@@ -32,7 +32,17 @@ public:
     ptr_[size_++] = newvalue;
   }
   
-  ~NaiveVector() { delete [] ptr_; }
+  ~NaiveVector() { delete [] ptr_; }  // Whenever you write a destructor, you probably 
+                                      // need to write a copy constructor as well
+                                      // 
+                                      // The destructor is responsible for freeing resources to avoid
+                                      // **leaks**, The copy constructor is responsible for duplicating
+                                      // resources to avoid **double frees**
+                                      //
+                                      // This applies to memory, or any other resources you might be
+                                      // managing.
+                                      
+                                      
 };
 
 // buggy below
