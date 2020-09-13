@@ -85,3 +85,12 @@ Use the copy-and-swap idiom to implement assignment
 
 - [C++ Core Guidelines: Be Aware of the Traps of Condition Variables](https://www.modernescpp.com/index.php/c-core-guidelines-be-aware-of-the-traps-of-condition-variables)
 - [Memory model synchronization modes](http://gcc.gnu.org/wiki/Atomic/GCCMM/AtomicSync)
+
+## Exceptions
+
+### [Why not exceptions](https://youtu.be/OkgvqjJzH_Y?t=896)  
+- Can bloat binary sizes, which can affect cache utilization
+- Handling exception can be much slower(60x) than not
+- Exception are even slower when executing inside a debugger
+- The compiler cannot elide or optimize out excepiton
+
