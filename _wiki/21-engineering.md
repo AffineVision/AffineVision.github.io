@@ -50,3 +50,7 @@ toc: true
 - **BN 问题**  
   - [How does Dataparallel handels batch norm?](https://discuss.pytorch.org/t/how-does-dataparallel-handels-batch-norm/14040/2)
 
+### VMWare + macOS
+
+- [VMWare Player](https://my.vmware.com/en/web/vmware/downloads/details?downloadGroup=PLAYER-1556&productId=800&rPId=47861#product_downloads)
+- [unlocker](https://github.com/paolo-projects/unlocker)
