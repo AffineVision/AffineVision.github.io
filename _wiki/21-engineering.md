@@ -20,6 +20,7 @@ toc: true
 ## Linux  
 - [Fix The Google GPG Error on Ubuntu](https://www.omgubuntu.co.uk/2017/08/fix-google-gpg-key-linux-repository-error)
 - [CudaDockerFile](https://gitlab.com/nvidia/container-images/cuda/-/tree/master/dist/ubuntu18.04/10.1)
+- [What Is /dev/shm And Its Practical Usage](https://www.cyberciti.biz/tips/what-is-devshm-and-its-practical-usage.html#:~:text=%2Fdev%2Fshm%20is%20nothing%20but,speeding%20up%20things%20on%20Linux.)
 
 ## PyTorch
 
