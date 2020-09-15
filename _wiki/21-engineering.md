@@ -24,6 +24,10 @@ toc: true
 
 ## PyTorch
 
+### 内部原理
+
+- [PyTorch internals](http://blog.ezyang.com/2019/05/pytorch-internals/)
+
 ### 加速技巧  
 1. DataLoader with `num_workers > 0` and `pin_memory = True`
 2. `torch.backends.cudnn.benchmark = True` to autotune cudnn kernel choice
